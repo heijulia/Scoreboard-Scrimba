@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: digit;
+    src: url('CursedTimerUlil.ttf');
+}
+
+body {
+    background: #372549; 
+    font-family: digit;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 385px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px;
+    margin-top: 20px;;
+    text-align: center;
+}
+.title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px; 
+    text-align: center;
+    color: #eacdc2;
+    margin-bottom: 20px;
+    
+}
+.home-points-title, .guest-points-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    background: #1a1423;
+    border-radius: 5px;
+}
+.add-points-btn-home, .add-points-btn-guest {
+    text-align: center;
+    margin-top: 20px; 
+}
+.pluss-btn {
+    font-family: digit;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    border: 2px solid #774c60;
+    border-radius: 5px;
+    background: none;
+    color: #eacdc2;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-btn {
+    background: none;
+    color: #eacdc2;
+    border: 2px solid #774c60;
+    border-radius: 5px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.reset-btn:hover, .pluss-btn:hover {
+  background: #774c60;
+}
